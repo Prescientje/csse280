@@ -1,13 +1,31 @@
 body {
 	background-color: white;
-	text-color: #404040;
+	color: #404040;
 	font-size: 11pt;
 	font-family: Georgia, Garamond, serif;
 }
 
-h1 h2 {
+h1,h2 {
 	background-color: #f0f0f0;
-	font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	/* font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif; */
+	color: #a4a400;
+	text-decoration: underline;
+}
+
+h1 {
 	text-align: center;
-	text-color: #a4a400;
+}
+
+p.small {
+	line-height: 0.8;
+}
+
+#comment {
+	font-style: oblique;
+	background-color: #ffffa8;
+	text-index: 50px;
+}
+
+#copyright {
+	text-align: right;
 }
