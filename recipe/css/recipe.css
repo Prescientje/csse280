@@ -6,10 +6,17 @@ body {
 }
 
 h1,h2 {
+	display: inline;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 	background-color: #f0f0f0;
-	/* font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif; */
 	color: #a4a400;
 	text-decoration: underline;
+	text-align: left;
+	letter-spacing: 0.25em;
+}
+
+#center-title {
+	text-align: center;
 }
 
 h1 {
