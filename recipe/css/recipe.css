@@ -27,5 +27,6 @@ p.small {
 }
 
 #copyright {
-	text-align: right;
+	font-family: monospace; 
+	/*text-align: right;*/
 }
