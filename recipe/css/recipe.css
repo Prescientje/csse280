@@ -1,39 +1,125 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{
+	margin: 0;
+	padding: 0;
+}
 body {
-	background-color: white;
-	color: #404040;
+	background: #ccc;
 	font-size: 11pt;
 	font-family: Georgia, Garamond, serif;
 }
-
+#container{
+	text-align: center;
+    font-size: 20px;
+}
+#home{
+	line-height: 3.3;
+}
 h1,h2 {
 	display: inline;
 	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
-	background-color: #f0f0f0;
-	color: #a4a400;
-	text-decoration: underline;
+	background-color: rgba(0,0,0,1);
+	color: #ffffff;
+	padding: 10px;
+	line-height: 3.3;
 	text-align: left;
 	letter-spacing: 0.25em;
 }
-
 #center-title {
 	text-align: center;
 }
-
-h1 {
-	text-align: center;
+#center-title+img{
+	margin: 30px 0 0 0;
+	width: 400px;
 }
-
-p.small {
-	line-height: 0.8;
+li{
+	list-style: none;
 }
-
+p,li {
+	line-height: 1.5;
+}
 #comment {
+	background-color: #ffffff;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    margin: 50px 0 40px 260px;
 	font-style: oblique;
-	background-color: #ffffa8;
-	text-index: 50px;
+	text-align: left;
+	border-radius: 5px;
+}
+footer{
+	background: black;
+	width: 100%;
+	height: 150px;
+}
+#logo{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+#GK-logo{
+	display: inline-block;
+    width: 80px;
+}
+#web-logo{
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px 0 0 -20px;
+
+}
+#fb:after{
+  	display: inline-block;
+	content:"\f082";
+	font-family: "fontAwesome";
+}
+#insta:after{
+  	display: inline-block;
+	content:"\f16d";
+	font-family: "fontAwesome";
+}
+#pinterest:after{
+  	display: inline-block;
+	content:"\f231";
+	font-family: "fontAwesome";
+}
+#twitter:after{
+  	display: inline-block;
+	content:"\f099";
+	font-family: "fontAwesome";
+}
+#youtube:after{
+  	display: inline-block;
+	content:"\f16a";
+	font-family: "fontAwesome";
+}
+#fb:hover{
+	color: #1E8BC3;
+}
+#insta:hover{
+	color: #913D88;
+}
+#pinterest:hover{
+	color: #F9690E;
+}
+#twitter:hover{
+	color: #913D88;
+}
+#youtube:hover{
+	color: #F9690E;
+}
+a{
+	margin-left: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover{
+	text-decoration: underline;
+}
+#copyright{
+	font-size: 18px;
+	margin: 40px 40px 0 0;
+	float: right;
+	color: #999;
 }
 
-#copyright {
-	font-family: monospace; 
-	/*text-align: right;*/
-}
